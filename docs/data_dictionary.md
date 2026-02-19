@@ -12,3 +12,7 @@ This document describes the structure and fields of the dataset used in the Data
 | **alert_triggered** | Indicates if the system detected an anomaly (TRUE/FALSE). | Boolean |
 | **alert_severity** | Impact level of the incident (Critical, High, Medium, Low). | String |
 | **execution_status** | Final result of the workflow run (Success or Failed). | String |
+
+---
+
+*Created by Brenda Espinosa*
