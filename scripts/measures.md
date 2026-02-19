@@ -44,11 +44,24 @@ A volume metric used to monitor data throughput. It helps identify "silent failu
 Snippet de código
 Total Records Processed = SUM('data_monitoring'[records_processed])
 ```
+---
+ # 🧠 Advanced DAX Measures Documentation
+
+This document details the advanced business logic and DAX formulas developed for the **Data Operations & Monitoring Dashboard**. These measures power the trend analysis, KPIs, and percentage change indicators.
+
+## 🚀 Key Performance Indicators (KPIs)
+
+### Total Records Processed (Life-to-Date)
+Aggregates the total volume of data rows handled across all monitored pipelines.
+```dax
+Total Records Processed = SUM('data_monitoring'[records_processed])
 
 Dynamic Titles
 Titles were customized to reflect the strategic nature of the data, moving away from raw column names (e.g., using "Incident Distribution" instead of "Count of Alerts").
+```
 
-🛠️ Data Transformation Note
+### 🛠️ Data Transformation Note
 All raw data was processed via Power Query to ensure correct data types (DateTime for execution dates and Boolean for alert flags) before applying the measures above.
 
 Created by Brenda Espinosa
+
