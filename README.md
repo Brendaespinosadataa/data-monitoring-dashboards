@@ -5,10 +5,6 @@ This repository features a **Strategic Operations Dashboard** focused on Data Ob
 
 The goal is to identify failures, monitor data volume anomalies, and assess the business impact of technical issues.
 
-## 🚀 Access the Dashboard
-- [Link to Live Dashboard (if available)]
-- [Download .pbix file](./Data_Monitoring_Report.pbix)
-
 ## 📁 Repository Structure
 * `data/`: Raw dataset (CSV format).
 * `images/`: Dashboard screenshots and previews.
@@ -32,4 +28,4 @@ The goal is to identify failures, monitor data volume anomalies, and assess the 
 * **Logic:** DAX for advanced time-intelligence.
 
 ---
-*Created by [Seu Nome]*
+*Created by Brenda Espinosa*
