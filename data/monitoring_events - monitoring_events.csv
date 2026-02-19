@@ -1,0 +1,541 @@
+execution_date,workflow_name,metric_name,metric_value,records_processed,percentage_change,alert_triggered,alert_severity,rule_name,execution_status
+2024-01-01 0:00,marketing_monitoring_n8n,data_volume,10413,10413,11.39,FALSE,none,none,success
+2024-01-02 0:00,sales_monitoring_n8n,total_revenue,9497,9497,-0.3,FALSE,none,none,success
+2024-01-03 0:00,marketing_monitoring_n8n,data_volume,10988,10988,-1.2,FALSE,none,none,success
+2024-01-04 0:00,marketing_monitoring_n8n,data_volume,10020,10020,2.01,FALSE,none,none,success
+2024-01-05 0:00,marketing_monitoring_n8n,data_volume,9863,9863,-23.66,TRUE,critical,Volume Drop Detection,success
+2024-01-06 0:00,sales_monitoring_n8n,total_revenue,7804,7804,-19.51,FALSE,none,none,success
+2024-01-07 0:00,marketing_monitoring_n8n,new_leads_b2b,7831,7831,-26.86,TRUE,medium,Leads Drop Detection,failed
+2024-01-08 0:00,sales_monitoring_n8n,total_revenue,11300,11300,-19.94,FALSE,none,none,success
+2024-01-09 0:00,marketing_monitoring_n8n,data_volume,8817,8817,-28.24,TRUE,critical,Volume Drop Detection,failed
+2024-01-10 0:00,sales_monitoring_n8n,total_revenue,10517,10517,-28.26,TRUE,high,Revenue Below Expected,success
+2024-01-11 0:00,marketing_monitoring_n8n,new_leads_b2b,9936,9936,-6.33,FALSE,none,none,success
+2024-01-12 0:00,marketing_monitoring_n8n,data_volume,8693,8693,19.4,FALSE,none,none,success
+2024-01-13 0:00,sales_monitoring_n8n,orders_count,8239,8239,13.99,FALSE,none,none,success
+2024-01-14 0:00,logistics_monitoring_n8n,data_volume,8672,8672,-12.71,FALSE,none,none,success
+2024-01-15 0:00,marketing_monitoring_n8n,new_leads_b2b,9866,9866,-13.35,FALSE,none,none,success
+2024-01-16 0:00,sales_monitoring_n8n,orders_count,9654,9654,-14.57,FALSE,none,none,success
+2024-01-17 0:00,logistics_monitoring_n8n,delivery_time_hours,8074,8074,-22.5,TRUE,high,Delivery Delay,failed
+2024-01-18 0:00,logistics_monitoring_n8n,delivery_time_hours,11072,11072,-22.73,TRUE,high,Delivery Delay,success
+2024-01-19 0:00,logistics_monitoring_n8n,delivery_time_hours,8321,8321,-7.85,FALSE,none,none,success
+2024-01-20 0:00,sales_monitoring_n8n,orders_count,7898,7898,-10.17,FALSE,none,none,success
+2024-01-21 0:00,marketing_monitoring_n8n,data_volume,12291,12291,29.17,TRUE,critical,Volume Drop Detection,failed
+2024-01-22 0:00,sales_monitoring_n8n,total_revenue,11720,11720,-17.99,FALSE,none,none,success
+2024-01-23 0:00,sales_monitoring_n8n,orders_count,8577,8577,-12.25,FALSE,none,none,success
+2024-01-24 0:00,logistics_monitoring_n8n,data_volume,9137,9137,-26.29,TRUE,critical,Volume Drop Detection,failed
+2024-01-25 0:00,marketing_monitoring_n8n,data_volume,8743,8743,4.36,FALSE,none,none,success
+2024-01-26 0:00,logistics_monitoring_n8n,data_volume,9577,9577,-2.23,FALSE,none,none,success
+2024-01-27 0:00,sales_monitoring_n8n,orders_count,8385,8385,18.58,FALSE,none,none,success
+2024-01-28 0:00,marketing_monitoring_n8n,new_leads_b2b,8150,8150,-24.96,TRUE,medium,Leads Drop Detection,success
+2024-01-29 0:00,marketing_monitoring_n8n,new_leads_b2b,10784,10784,-1.55,FALSE,none,none,success
+2024-01-30 0:00,sales_monitoring_n8n,total_revenue,11182,11182,8.26,FALSE,none,none,success
+2024-01-31 0:00,sales_monitoring_n8n,orders_count,9659,9659,-14.04,FALSE,none,none,success
+2024-02-01 0:00,logistics_monitoring_n8n,data_volume,9798,9798,29.87,TRUE,critical,Volume Drop Detection,success
+2024-02-02 0:00,marketing_monitoring_n8n,new_leads_b2b,11295,11295,-10.47,FALSE,none,none,success
+2024-02-03 0:00,logistics_monitoring_n8n,data_volume,8700,8700,-19.96,FALSE,none,none,success
+2024-02-04 0:00,sales_monitoring_n8n,orders_count,10153,10153,25.33,TRUE,medium,Order Volume Drop,success
+2024-02-05 0:00,marketing_monitoring_n8n,new_leads_b2b,9534,9534,23.48,TRUE,medium,Leads Drop Detection,success
+2024-02-06 0:00,sales_monitoring_n8n,total_revenue,8409,8409,-29,TRUE,high,Revenue Below Expected,success
+2024-02-07 0:00,logistics_monitoring_n8n,delivery_time_hours,11647,11647,4.71,FALSE,none,none,success
+2024-02-08 0:00,sales_monitoring_n8n,orders_count,11631,11631,-16.83,FALSE,none,none,success
+2024-02-09 0:00,sales_monitoring_n8n,total_revenue,12040,12040,14.08,FALSE,none,none,success
+2024-02-10 0:00,logistics_monitoring_n8n,delivery_time_hours,10515,10515,-18.5,FALSE,none,none,success
+2024-02-11 0:00,logistics_monitoring_n8n,data_volume,9066,9066,6.65,FALSE,none,none,success
+2024-02-12 0:00,logistics_monitoring_n8n,data_volume,9532,9532,23.26,TRUE,critical,Volume Drop Detection,failed
+2024-02-13 0:00,marketing_monitoring_n8n,data_volume,10206,10206,0.68,FALSE,none,none,success
+2024-02-14 0:00,marketing_monitoring_n8n,data_volume,9287,9287,-21.24,TRUE,critical,Volume Drop Detection,failed
+2024-02-15 0:00,marketing_monitoring_n8n,new_leads_b2b,10746,10746,4.67,FALSE,none,none,success
+2024-02-16 0:00,logistics_monitoring_n8n,data_volume,10548,10548,4.86,FALSE,none,none,success
+2024-02-17 0:00,logistics_monitoring_n8n,data_volume,10677,10677,27.76,TRUE,critical,Volume Drop Detection,success
+2024-02-18 0:00,marketing_monitoring_n8n,data_volume,9395,9395,-10.4,FALSE,none,none,success
+2024-02-19 0:00,logistics_monitoring_n8n,data_volume,9934,9934,-6.56,FALSE,none,none,success
+2024-02-20 0:00,sales_monitoring_n8n,total_revenue,11587,11587,28.79,TRUE,high,Revenue Below Expected,failed
+2024-02-21 0:00,marketing_monitoring_n8n,data_volume,8832,8832,-26.74,TRUE,critical,Volume Drop Detection,failed
+2024-02-22 0:00,sales_monitoring_n8n,orders_count,11989,11989,-1.03,FALSE,none,none,success
+2024-02-23 0:00,sales_monitoring_n8n,total_revenue,10209,10209,-19.04,FALSE,none,none,success
+2024-02-24 0:00,logistics_monitoring_n8n,data_volume,9006,9006,20.67,TRUE,critical,Volume Drop Detection,success
+2024-02-25 0:00,logistics_monitoring_n8n,delivery_time_hours,8990,8990,-10.92,FALSE,none,none,success
+2024-02-26 0:00,sales_monitoring_n8n,total_revenue,11938,11938,13.82,FALSE,none,none,success
+2024-02-27 0:00,logistics_monitoring_n8n,data_volume,12055,12055,5.59,FALSE,none,none,success
+2024-02-28 0:00,logistics_monitoring_n8n,delivery_time_hours,9288,9288,28.84,TRUE,high,Delivery Delay,failed
+2024-02-29 0:00,logistics_monitoring_n8n,data_volume,11339,11339,13.91,FALSE,none,none,success
+2024-03-01 0:00,sales_monitoring_n8n,orders_count,11361,11361,-23.85,TRUE,medium,Order Volume Drop,failed
+2024-03-02 0:00,sales_monitoring_n8n,orders_count,10718,10718,21.88,TRUE,medium,Order Volume Drop,success
+2024-03-03 0:00,sales_monitoring_n8n,total_revenue,10864,10864,-13.56,FALSE,none,none,success
+2024-03-04 0:00,logistics_monitoring_n8n,delivery_time_hours,8304,8304,-29.57,TRUE,high,Delivery Delay,success
+2024-03-05 0:00,sales_monitoring_n8n,total_revenue,9690,9690,19.07,FALSE,none,none,success
+2024-03-06 0:00,logistics_monitoring_n8n,data_volume,11553,11553,-4.62,FALSE,none,none,success
+2024-03-07 0:00,marketing_monitoring_n8n,new_leads_b2b,12034,12034,23.48,TRUE,medium,Leads Drop Detection,failed
+2024-03-08 0:00,sales_monitoring_n8n,total_revenue,9180,9180,18.01,FALSE,none,none,success
+2024-03-09 0:00,sales_monitoring_n8n,orders_count,10284,10284,-1.55,FALSE,none,none,success
+2024-03-10 0:00,logistics_monitoring_n8n,data_volume,9104,9104,-19.52,FALSE,none,none,success
+2024-03-11 0:00,logistics_monitoring_n8n,data_volume,10043,10043,-25.62,TRUE,critical,Volume Drop Detection,failed
+2024-03-12 0:00,marketing_monitoring_n8n,data_volume,9387,9387,18.8,FALSE,none,none,success
+2024-03-13 0:00,marketing_monitoring_n8n,new_leads_b2b,7908,7908,-19.11,FALSE,none,none,success
+2024-03-14 0:00,marketing_monitoring_n8n,new_leads_b2b,10049,10049,4.95,FALSE,none,none,success
+2024-03-15 0:00,sales_monitoring_n8n,total_revenue,9439,9439,3.91,FALSE,none,none,success
+2024-03-16 0:00,sales_monitoring_n8n,total_revenue,11357,11357,5.79,FALSE,none,none,success
+2024-03-17 0:00,marketing_monitoring_n8n,new_leads_b2b,10522,10522,12.23,FALSE,none,none,success
+2024-03-18 0:00,marketing_monitoring_n8n,new_leads_b2b,9128,9128,22.82,TRUE,medium,Leads Drop Detection,failed
+2024-03-19 0:00,sales_monitoring_n8n,orders_count,11558,11558,5.87,FALSE,none,none,success
+2024-03-20 0:00,marketing_monitoring_n8n,data_volume,11304,11304,-29.56,TRUE,critical,Volume Drop Detection,success
+2024-03-21 0:00,logistics_monitoring_n8n,data_volume,9045,9045,24.59,TRUE,critical,Volume Drop Detection,failed
+2024-03-22 0:00,sales_monitoring_n8n,orders_count,11620,11620,12,FALSE,none,none,success
+2024-03-23 0:00,sales_monitoring_n8n,orders_count,9800,9800,-19.94,FALSE,none,none,success
+2024-03-24 0:00,marketing_monitoring_n8n,new_leads_b2b,11597,11597,-20.25,TRUE,medium,Leads Drop Detection,success
+2024-03-25 0:00,logistics_monitoring_n8n,data_volume,11309,11309,-9.03,FALSE,none,none,success
+2024-03-26 0:00,sales_monitoring_n8n,total_revenue,9432,9432,3.2,FALSE,none,none,success
+2024-03-27 0:00,sales_monitoring_n8n,total_revenue,9614,9614,21.48,TRUE,high,Revenue Below Expected,failed
+2024-03-28 0:00,marketing_monitoring_n8n,data_volume,8707,8707,20.78,TRUE,critical,Volume Drop Detection,success
+2024-03-29 0:00,logistics_monitoring_n8n,delivery_time_hours,9850,9850,5.07,FALSE,none,none,success
+2024-03-30 0:00,sales_monitoring_n8n,orders_count,8448,8448,24.82,TRUE,medium,Order Volume Drop,success
+2024-03-31 0:00,sales_monitoring_n8n,total_revenue,8599,8599,19.98,FALSE,none,none,success
+2024-04-01 0:00,sales_monitoring_n8n,orders_count,8094,8094,9.49,FALSE,none,none,success
+2024-04-02 0:00,logistics_monitoring_n8n,delivery_time_hours,10973,10973,17.31,FALSE,none,none,success
+2024-04-03 0:00,logistics_monitoring_n8n,delivery_time_hours,12240,12240,24.09,TRUE,high,Delivery Delay,failed
+2024-04-04 0:00,sales_monitoring_n8n,orders_count,11665,11665,-23.5,TRUE,medium,Order Volume Drop,success
+2024-04-05 0:00,sales_monitoring_n8n,total_revenue,11670,11670,17.02,FALSE,none,none,success
+2024-04-06 0:00,logistics_monitoring_n8n,delivery_time_hours,9743,9743,24.39,TRUE,high,Delivery Delay,success
+2024-04-07 0:00,logistics_monitoring_n8n,delivery_time_hours,11690,11690,-20.98,TRUE,high,Delivery Delay,failed
+2024-04-08 0:00,sales_monitoring_n8n,total_revenue,9221,9221,-7.81,FALSE,none,none,success
+2024-04-09 0:00,logistics_monitoring_n8n,data_volume,10298,10298,-10.19,FALSE,none,none,success
+2024-04-10 0:00,logistics_monitoring_n8n,data_volume,8233,8233,23.33,TRUE,critical,Volume Drop Detection,failed
+2024-04-11 0:00,sales_monitoring_n8n,total_revenue,11480,11480,28.04,TRUE,high,Revenue Below Expected,success
+2024-04-12 0:00,sales_monitoring_n8n,orders_count,8790,8790,-10.96,FALSE,none,none,success
+2024-04-13 0:00,logistics_monitoring_n8n,data_volume,8387,8387,-11.22,FALSE,none,none,success
+2024-04-14 0:00,marketing_monitoring_n8n,data_volume,8450,8450,5.08,FALSE,none,none,success
+2024-04-15 0:00,marketing_monitoring_n8n,new_leads_b2b,9311,9311,-8.83,FALSE,none,none,success
+2024-04-16 0:00,logistics_monitoring_n8n,delivery_time_hours,8687,8687,28.78,TRUE,high,Delivery Delay,success
+2024-04-17 0:00,marketing_monitoring_n8n,new_leads_b2b,10605,10605,-29.46,TRUE,medium,Leads Drop Detection,failed
+2024-04-18 0:00,logistics_monitoring_n8n,data_volume,9180,9180,8.08,FALSE,none,none,success
+2024-04-19 0:00,logistics_monitoring_n8n,delivery_time_hours,10506,10506,-19.38,FALSE,none,none,success
+2024-04-20 0:00,logistics_monitoring_n8n,data_volume,8856,8856,5.65,FALSE,none,none,success
+2024-04-21 0:00,marketing_monitoring_n8n,new_leads_b2b,8096,8096,-10.38,FALSE,none,none,success
+2024-04-22 0:00,logistics_monitoring_n8n,data_volume,10791,10791,9.2,FALSE,none,none,success
+2024-04-23 0:00,marketing_monitoring_n8n,data_volume,10738,10738,13.81,FALSE,none,none,success
+2024-04-24 0:00,sales_monitoring_n8n,orders_count,8481,8481,18.1,FALSE,none,none,success
+2024-04-25 0:00,logistics_monitoring_n8n,delivery_time_hours,11766,11766,26.64,TRUE,high,Delivery Delay,success
+2024-04-26 0:00,marketing_monitoring_n8n,new_leads_b2b,10393,10393,9.31,FALSE,none,none,success
+2024-04-27 0:00,marketing_monitoring_n8n,new_leads_b2b,11229,11229,-7.07,FALSE,none,none,success
+2024-04-28 0:00,sales_monitoring_n8n,total_revenue,10598,10598,-0.19,FALSE,none,none,success
+2024-04-29 0:00,sales_monitoring_n8n,total_revenue,8304,8304,-19.54,FALSE,none,none,success
+2024-04-30 0:00,logistics_monitoring_n8n,data_volume,12076,12076,27.68,TRUE,critical,Volume Drop Detection,failed
+2024-05-01 0:00,logistics_monitoring_n8n,delivery_time_hours,9586,9586,28.65,TRUE,high,Delivery Delay,failed
+2024-05-02 0:00,sales_monitoring_n8n,orders_count,10415,10415,-28.41,TRUE,medium,Order Volume Drop,failed
+2024-05-03 0:00,marketing_monitoring_n8n,new_leads_b2b,12214,12214,21.41,TRUE,medium,Leads Drop Detection,success
+2024-05-04 0:00,logistics_monitoring_n8n,data_volume,10832,10832,-26.71,TRUE,critical,Volume Drop Detection,failed
+2024-05-05 0:00,logistics_monitoring_n8n,delivery_time_hours,9099,9099,-20.03,TRUE,high,Delivery Delay,failed
+2024-05-06 0:00,logistics_monitoring_n8n,delivery_time_hours,8006,8006,-9.38,FALSE,none,none,success
+2024-05-07 0:00,sales_monitoring_n8n,orders_count,9125,9125,22.6,TRUE,medium,Order Volume Drop,success
+2024-05-08 0:00,marketing_monitoring_n8n,data_volume,9813,9813,21.35,TRUE,critical,Volume Drop Detection,success
+2024-05-09 0:00,logistics_monitoring_n8n,delivery_time_hours,11763,11763,-13.7,FALSE,none,none,success
+2024-05-10 0:00,marketing_monitoring_n8n,data_volume,8077,8077,-12.3,FALSE,none,none,success
+2024-05-11 0:00,sales_monitoring_n8n,orders_count,9523,9523,-27.66,TRUE,medium,Order Volume Drop,failed
+2024-05-12 0:00,logistics_monitoring_n8n,data_volume,8757,8757,-14.22,FALSE,none,none,success
+2024-05-13 0:00,sales_monitoring_n8n,orders_count,10384,10384,-1.56,FALSE,none,none,success
+2024-05-14 0:00,marketing_monitoring_n8n,new_leads_b2b,10947,10947,14.74,FALSE,none,none,success
+2024-05-15 0:00,marketing_monitoring_n8n,data_volume,11793,11793,-0.6,FALSE,none,none,success
+2024-05-16 0:00,sales_monitoring_n8n,total_revenue,10996,10996,19.65,FALSE,none,none,success
+2024-05-17 0:00,marketing_monitoring_n8n,data_volume,10875,10875,-12.4,FALSE,none,none,success
+2024-05-18 0:00,logistics_monitoring_n8n,data_volume,8532,8532,-26.72,TRUE,critical,Volume Drop Detection,success
+2024-05-19 0:00,sales_monitoring_n8n,orders_count,9914,9914,11.47,FALSE,none,none,success
+2024-05-20 0:00,sales_monitoring_n8n,orders_count,11779,11779,-22.01,TRUE,medium,Order Volume Drop,failed
+2024-05-21 0:00,sales_monitoring_n8n,orders_count,11215,11215,1.53,FALSE,none,none,success
+2024-05-22 0:00,sales_monitoring_n8n,total_revenue,9423,9423,-7.63,FALSE,none,none,success
+2024-05-23 0:00,sales_monitoring_n8n,total_revenue,11491,11491,-0.89,FALSE,none,none,success
+2024-05-24 0:00,logistics_monitoring_n8n,delivery_time_hours,10832,10832,-6.77,FALSE,none,none,success
+2024-05-25 0:00,sales_monitoring_n8n,total_revenue,10002,10002,-19.74,FALSE,none,none,success
+2024-05-26 0:00,logistics_monitoring_n8n,delivery_time_hours,8633,8633,-6.66,FALSE,none,none,success
+2024-05-27 0:00,sales_monitoring_n8n,orders_count,8728,8728,12.84,FALSE,none,none,success
+2024-05-28 0:00,sales_monitoring_n8n,total_revenue,8043,8043,-25.63,TRUE,high,Revenue Below Expected,failed
+2024-05-29 0:00,logistics_monitoring_n8n,delivery_time_hours,9708,9708,-19.11,FALSE,none,none,success
+2024-05-30 0:00,logistics_monitoring_n8n,delivery_time_hours,10506,10506,-29.3,TRUE,high,Delivery Delay,failed
+2024-05-31 0:00,logistics_monitoring_n8n,data_volume,8975,8975,-22.49,TRUE,critical,Volume Drop Detection,failed
+2024-06-01 0:00,logistics_monitoring_n8n,data_volume,10189,10189,8.98,FALSE,none,none,success
+2024-06-02 0:00,marketing_monitoring_n8n,data_volume,8386,8386,-21.39,TRUE,critical,Volume Drop Detection,success
+2024-06-03 0:00,marketing_monitoring_n8n,data_volume,10800,10800,20.08,TRUE,critical,Volume Drop Detection,failed
+2024-06-04 0:00,marketing_monitoring_n8n,data_volume,10891,10891,29.15,TRUE,critical,Volume Drop Detection,success
+2024-06-05 0:00,sales_monitoring_n8n,total_revenue,9724,9724,22.43,TRUE,high,Revenue Below Expected,failed
+2024-06-06 0:00,logistics_monitoring_n8n,data_volume,10087,10087,-11.22,FALSE,none,none,success
+2024-06-07 0:00,logistics_monitoring_n8n,delivery_time_hours,10018,10018,-18.14,FALSE,none,none,success
+2024-06-08 0:00,marketing_monitoring_n8n,new_leads_b2b,8122,8122,-27.8,TRUE,medium,Leads Drop Detection,failed
+2024-06-09 0:00,logistics_monitoring_n8n,data_volume,9134,9134,3.43,FALSE,none,none,success
+2024-06-10 0:00,marketing_monitoring_n8n,new_leads_b2b,10525,10525,-7.48,FALSE,none,none,success
+2024-06-11 0:00,sales_monitoring_n8n,total_revenue,10008,10008,0.81,FALSE,none,none,success
+2024-06-12 0:00,logistics_monitoring_n8n,delivery_time_hours,8300,8300,-29.93,TRUE,high,Delivery Delay,success
+2024-06-13 0:00,logistics_monitoring_n8n,data_volume,9282,9282,-21.74,TRUE,critical,Volume Drop Detection,success
+2024-06-14 0:00,marketing_monitoring_n8n,new_leads_b2b,10621,10621,-17.82,FALSE,none,none,success
+2024-06-15 0:00,logistics_monitoring_n8n,data_volume,9196,9196,-0.36,FALSE,none,none,success
+2024-06-16 0:00,marketing_monitoring_n8n,data_volume,10516,10516,11.64,FALSE,none,none,success
+2024-06-17 0:00,marketing_monitoring_n8n,data_volume,8385,8385,-11.5,FALSE,none,none,success
+2024-06-18 0:00,logistics_monitoring_n8n,delivery_time_hours,8232,8232,23.27,TRUE,high,Delivery Delay,failed
+2024-06-19 0:00,logistics_monitoring_n8n,data_volume,10721,10721,22.17,TRUE,critical,Volume Drop Detection,failed
+2024-06-20 0:00,sales_monitoring_n8n,orders_count,10133,10133,3.34,FALSE,none,none,success
+2024-06-21 0:00,logistics_monitoring_n8n,delivery_time_hours,11642,11642,24.23,TRUE,high,Delivery Delay,success
+2024-06-22 0:00,logistics_monitoring_n8n,delivery_time_hours,9650,9650,5.04,FALSE,none,none,success
+2024-06-23 0:00,logistics_monitoring_n8n,delivery_time_hours,10477,10477,-12.29,FALSE,none,none,success
+2024-06-24 0:00,marketing_monitoring_n8n,new_leads_b2b,9268,9268,-3.15,FALSE,none,none,success
+2024-06-25 0:00,logistics_monitoring_n8n,data_volume,9482,9482,18.26,FALSE,none,none,success
+2024-06-26 0:00,logistics_monitoring_n8n,data_volume,8608,8608,0.85,FALSE,none,none,success
+2024-06-27 0:00,logistics_monitoring_n8n,delivery_time_hours,9014,9014,1.41,FALSE,none,none,success
+2024-06-28 0:00,logistics_monitoring_n8n,delivery_time_hours,9994,9994,-20.52,TRUE,high,Delivery Delay,failed
+2024-06-29 0:00,sales_monitoring_n8n,orders_count,11289,11289,28.97,TRUE,medium,Order Volume Drop,failed
+2024-06-30 0:00,sales_monitoring_n8n,total_revenue,11613,11613,-18.67,FALSE,none,none,success
+2024-07-01 0:00,logistics_monitoring_n8n,delivery_time_hours,11190,11190,29.05,TRUE,high,Delivery Delay,failed
+2024-07-02 0:00,logistics_monitoring_n8n,data_volume,11557,11557,-24.23,TRUE,critical,Volume Drop Detection,failed
+2024-07-03 0:00,sales_monitoring_n8n,total_revenue,9518,9518,-28.2,TRUE,high,Revenue Below Expected,failed
+2024-07-04 0:00,logistics_monitoring_n8n,delivery_time_hours,11437,11437,-6.23,FALSE,none,none,success
+2024-07-05 0:00,logistics_monitoring_n8n,data_volume,10577,10577,-2.29,FALSE,none,none,success
+2024-07-06 0:00,logistics_monitoring_n8n,delivery_time_hours,11260,11260,-3.93,FALSE,none,none,success
+2024-07-07 0:00,sales_monitoring_n8n,total_revenue,10204,10204,0.48,FALSE,none,none,success
+2024-07-08 0:00,marketing_monitoring_n8n,data_volume,9854,9854,5.45,FALSE,none,none,success
+2024-07-09 0:00,sales_monitoring_n8n,total_revenue,9262,9262,16.27,FALSE,none,none,success
+2024-07-10 0:00,logistics_monitoring_n8n,data_volume,11243,11243,24.38,TRUE,critical,Volume Drop Detection,success
+2024-07-11 0:00,marketing_monitoring_n8n,new_leads_b2b,11309,11309,20.93,TRUE,medium,Leads Drop Detection,success
+2024-07-12 0:00,sales_monitoring_n8n,total_revenue,11767,11767,-13.25,FALSE,none,none,success
+2024-07-13 0:00,logistics_monitoring_n8n,delivery_time_hours,8519,8519,-18.09,FALSE,none,none,success
+2024-07-14 0:00,marketing_monitoring_n8n,data_volume,11084,11084,-11.53,FALSE,none,none,success
+2024-07-15 0:00,sales_monitoring_n8n,orders_count,11811,11811,1.12,FALSE,none,none,success
+2024-07-16 0:00,marketing_monitoring_n8n,data_volume,11231,11231,-26.86,TRUE,critical,Volume Drop Detection,success
+2024-07-17 0:00,logistics_monitoring_n8n,delivery_time_hours,10696,10696,-10.39,FALSE,none,none,success
+2024-07-18 0:00,sales_monitoring_n8n,orders_count,11130,11130,3.09,FALSE,none,none,success
+2024-07-19 0:00,logistics_monitoring_n8n,delivery_time_hours,10494,10494,29.42,TRUE,high,Delivery Delay,failed
+2024-07-20 0:00,marketing_monitoring_n8n,data_volume,7875,7875,-22.43,TRUE,critical,Volume Drop Detection,success
+2024-07-21 0:00,marketing_monitoring_n8n,data_volume,8778,8778,27.89,TRUE,critical,Volume Drop Detection,failed
+2024-07-22 0:00,marketing_monitoring_n8n,new_leads_b2b,11451,11451,-24.84,TRUE,medium,Leads Drop Detection,failed
+2024-07-23 0:00,logistics_monitoring_n8n,delivery_time_hours,11697,11697,-0.2,FALSE,none,none,success
+2024-07-24 0:00,sales_monitoring_n8n,total_revenue,12100,12100,20.08,TRUE,high,Revenue Below Expected,success
+2024-07-25 0:00,logistics_monitoring_n8n,delivery_time_hours,8684,8684,-1.56,FALSE,none,none,success
+2024-07-26 0:00,logistics_monitoring_n8n,delivery_time_hours,9425,9425,-17.48,FALSE,none,none,success
+2024-07-27 0:00,marketing_monitoring_n8n,data_volume,8572,8572,27.28,TRUE,critical,Volume Drop Detection,failed
+2024-07-28 0:00,sales_monitoring_n8n,orders_count,11762,11762,16.27,FALSE,none,none,success
+2024-07-29 0:00,sales_monitoring_n8n,orders_count,11417,11417,-28.28,TRUE,medium,Order Volume Drop,success
+2024-07-30 0:00,logistics_monitoring_n8n,delivery_time_hours,10676,10676,-22.38,TRUE,high,Delivery Delay,success
+2024-07-31 0:00,marketing_monitoring_n8n,new_leads_b2b,8568,8568,6.81,FALSE,none,none,success
+2024-08-01 0:00,sales_monitoring_n8n,orders_count,12073,12073,7.34,FALSE,none,none,success
+2024-08-02 0:00,sales_monitoring_n8n,orders_count,10255,10255,-14.43,FALSE,none,none,success
+2024-08-03 0:00,logistics_monitoring_n8n,data_volume,8201,8201,-29.82,TRUE,critical,Volume Drop Detection,success
+2024-08-04 0:00,marketing_monitoring_n8n,data_volume,11530,11530,23.04,TRUE,critical,Volume Drop Detection,success
+2024-08-05 0:00,sales_monitoring_n8n,total_revenue,11419,11419,-18.04,FALSE,none,none,success
+2024-08-06 0:00,sales_monitoring_n8n,total_revenue,11444,11444,4.49,FALSE,none,none,success
+2024-08-07 0:00,sales_monitoring_n8n,orders_count,8976,8976,-22.31,TRUE,medium,Order Volume Drop,failed
+2024-08-08 0:00,logistics_monitoring_n8n,data_volume,8220,8220,-17.95,FALSE,none,none,success
+2024-08-09 0:00,marketing_monitoring_n8n,new_leads_b2b,9034,9034,23.41,TRUE,medium,Leads Drop Detection,failed
+2024-08-10 0:00,logistics_monitoring_n8n,delivery_time_hours,11412,11412,11.24,FALSE,none,none,success
+2024-08-11 0:00,sales_monitoring_n8n,total_revenue,12184,12184,28.42,TRUE,high,Revenue Below Expected,success
+2024-08-12 0:00,sales_monitoring_n8n,orders_count,9668,9668,-13.17,FALSE,none,none,success
+2024-08-13 0:00,sales_monitoring_n8n,total_revenue,8243,8243,-15.66,FALSE,none,none,success
+2024-08-14 0:00,logistics_monitoring_n8n,data_volume,11097,11097,-20.23,TRUE,critical,Volume Drop Detection,failed
+2024-08-15 0:00,marketing_monitoring_n8n,data_volume,8695,8695,29.57,TRUE,critical,Volume Drop Detection,failed
+2024-08-16 0:00,marketing_monitoring_n8n,data_volume,8956,8956,25.66,TRUE,critical,Volume Drop Detection,success
+2024-08-17 0:00,logistics_monitoring_n8n,data_volume,9572,9572,17.21,FALSE,none,none,success
+2024-08-18 0:00,marketing_monitoring_n8n,new_leads_b2b,10716,10716,-8.38,FALSE,none,none,success
+2024-08-19 0:00,sales_monitoring_n8n,total_revenue,11533,11533,23.37,TRUE,high,Revenue Below Expected,failed
+2024-08-20 0:00,logistics_monitoring_n8n,delivery_time_hours,8548,8548,4.85,FALSE,none,none,success
+2024-08-21 0:00,marketing_monitoring_n8n,new_leads_b2b,10454,10454,-24.58,TRUE,medium,Leads Drop Detection,failed
+2024-08-22 0:00,marketing_monitoring_n8n,new_leads_b2b,10523,10523,-7.62,FALSE,none,none,success
+2024-08-23 0:00,marketing_monitoring_n8n,new_leads_b2b,11776,11776,17.67,FALSE,none,none,success
+2024-08-24 0:00,logistics_monitoring_n8n,data_volume,8816,8816,1.66,FALSE,none,none,success
+2024-08-25 0:00,marketing_monitoring_n8n,new_leads_b2b,10373,10373,-22.69,TRUE,medium,Leads Drop Detection,success
+2024-08-26 0:00,logistics_monitoring_n8n,data_volume,12098,12098,29.82,TRUE,critical,Volume Drop Detection,failed
+2024-08-27 0:00,marketing_monitoring_n8n,new_leads_b2b,8721,8721,-17.81,FALSE,none,none,success
+2024-08-28 0:00,logistics_monitoring_n8n,data_volume,10056,10056,-24.38,TRUE,critical,Volume Drop Detection,success
+2024-08-29 0:00,logistics_monitoring_n8n,delivery_time_hours,9209,9209,-9,FALSE,none,none,success
+2024-08-30 0:00,marketing_monitoring_n8n,new_leads_b2b,9500,9500,20.05,TRUE,medium,Leads Drop Detection,failed
+2024-08-31 0:00,marketing_monitoring_n8n,new_leads_b2b,9383,9383,28.34,TRUE,medium,Leads Drop Detection,success
+2024-09-01 0:00,sales_monitoring_n8n,total_revenue,9692,9692,29.3,TRUE,high,Revenue Below Expected,success
+2024-09-02 0:00,marketing_monitoring_n8n,new_leads_b2b,10708,10708,10.81,FALSE,none,none,success
+2024-09-03 0:00,marketing_monitoring_n8n,new_leads_b2b,10407,10407,-19.21,FALSE,none,none,success
+2024-09-04 0:00,logistics_monitoring_n8n,data_volume,8225,8225,-27.47,TRUE,critical,Volume Drop Detection,failed
+2024-09-05 0:00,logistics_monitoring_n8n,delivery_time_hours,11521,11521,12.16,FALSE,none,none,success
+2024-09-06 0:00,sales_monitoring_n8n,total_revenue,9661,9661,-13.85,FALSE,none,none,success
+2024-09-07 0:00,logistics_monitoring_n8n,data_volume,8586,8586,-11.35,FALSE,none,none,success
+2024-09-08 0:00,marketing_monitoring_n8n,new_leads_b2b,10676,10676,17.68,FALSE,none,none,success
+2024-09-09 0:00,marketing_monitoring_n8n,data_volume,8608,8608,10.85,FALSE,none,none,success
+2024-09-10 0:00,sales_monitoring_n8n,orders_count,11949,11949,-5.04,FALSE,none,none,success
+2024-09-11 0:00,sales_monitoring_n8n,total_revenue,11722,11722,-17.8,FALSE,none,none,success
+2024-09-12 0:00,marketing_monitoring_n8n,new_leads_b2b,10240,10240,14.08,FALSE,none,none,success
+2024-09-13 0:00,marketing_monitoring_n8n,data_volume,11860,11860,26.1,TRUE,critical,Volume Drop Detection,success
+2024-09-14 0:00,marketing_monitoring_n8n,data_volume,8343,8343,14.39,FALSE,none,none,success
+2024-09-15 0:00,logistics_monitoring_n8n,delivery_time_hours,8174,8174,-22.6,TRUE,high,Delivery Delay,success
+2024-09-16 0:00,marketing_monitoring_n8n,data_volume,8711,8711,21.19,TRUE,critical,Volume Drop Detection,success
+2024-09-17 0:00,marketing_monitoring_n8n,new_leads_b2b,9089,9089,-11.09,FALSE,none,none,success
+2024-09-18 0:00,sales_monitoring_n8n,total_revenue,10736,10736,-6.38,FALSE,none,none,success
+2024-09-19 0:00,logistics_monitoring_n8n,data_volume,8127,8127,2.72,FALSE,none,none,success
+2024-09-20 0:00,logistics_monitoring_n8n,delivery_time_hours,10511,10511,11.11,FALSE,none,none,success
+2024-09-21 0:00,marketing_monitoring_n8n,new_leads_b2b,10600,10600,0.1,FALSE,none,none,success
+2024-09-22 0:00,marketing_monitoring_n8n,data_volume,11247,11247,-15.26,FALSE,none,none,success
+2024-09-23 0:00,logistics_monitoring_n8n,data_volume,10876,10876,7.64,FALSE,none,none,success
+2024-09-24 0:00,logistics_monitoring_n8n,delivery_time_hours,7904,7904,-29.57,TRUE,high,Delivery Delay,success
+2024-09-25 0:00,logistics_monitoring_n8n,data_volume,9221,9221,2.17,FALSE,none,none,success
+2024-09-26 0:00,marketing_monitoring_n8n,new_leads_b2b,11102,11102,-9.8,FALSE,none,none,success
+2024-09-27 0:00,sales_monitoring_n8n,orders_count,9670,9670,7.08,FALSE,none,none,success
+2024-09-28 0:00,marketing_monitoring_n8n,data_volume,10412,10412,-8.71,FALSE,none,none,success
+2024-09-29 0:00,logistics_monitoring_n8n,delivery_time_hours,12096,12096,29.7,TRUE,high,Delivery Delay,success
+2024-09-30 0:00,sales_monitoring_n8n,orders_count,8614,8614,11.47,FALSE,none,none,success
+2024-10-01 0:00,sales_monitoring_n8n,orders_count,11218,11218,21.81,TRUE,medium,Order Volume Drop,failed
+2024-10-02 0:00,sales_monitoring_n8n,total_revenue,10455,10455,15.51,FALSE,none,none,success
+2024-10-03 0:00,marketing_monitoring_n8n,data_volume,11531,11531,-26.9,TRUE,critical,Volume Drop Detection,failed
+2024-10-04 0:00,sales_monitoring_n8n,orders_count,11516,11516,-18.36,FALSE,none,none,success
+2024-10-05 0:00,sales_monitoring_n8n,orders_count,9593,9593,-0.65,FALSE,none,none,success
+2024-10-06 0:00,logistics_monitoring_n8n,data_volume,8846,8846,4.68,FALSE,none,none,success
+2024-10-07 0:00,marketing_monitoring_n8n,data_volume,7705,7705,-29.43,TRUE,critical,Volume Drop Detection,failed
+2024-10-08 0:00,logistics_monitoring_n8n,data_volume,10486,10486,8.62,FALSE,none,none,success
+2024-10-09 0:00,logistics_monitoring_n8n,data_volume,11408,11408,-9.14,FALSE,none,none,success
+2024-10-10 0:00,sales_monitoring_n8n,orders_count,9637,9637,-26.24,TRUE,medium,Order Volume Drop,success
+2024-10-11 0:00,sales_monitoring_n8n,orders_count,8332,8332,13.21,FALSE,none,none,success
+2024-10-12 0:00,marketing_monitoring_n8n,data_volume,11919,11919,11.95,FALSE,none,none,success
+2024-10-13 0:00,sales_monitoring_n8n,orders_count,10275,10275,-12.44,FALSE,none,none,success
+2024-10-14 0:00,logistics_monitoring_n8n,data_volume,8694,8694,19.42,FALSE,none,none,success
+2024-10-15 0:00,logistics_monitoring_n8n,data_volume,10501,10501,10.18,FALSE,none,none,success
+2024-10-16 0:00,sales_monitoring_n8n,orders_count,8380,8380,-1.91,FALSE,none,none,success
+2024-10-17 0:00,sales_monitoring_n8n,total_revenue,10385,10385,8.57,FALSE,none,none,success
+2024-10-18 0:00,logistics_monitoring_n8n,delivery_time_hours,9325,9325,22.58,TRUE,high,Delivery Delay,success
+2024-10-19 0:00,sales_monitoring_n8n,total_revenue,8915,8915,1.6,FALSE,none,none,success
+2024-10-20 0:00,logistics_monitoring_n8n,delivery_time_hours,8995,8995,-0.47,FALSE,none,none,success
+2024-10-21 0:00,sales_monitoring_n8n,orders_count,10509,10509,-19.04,FALSE,none,none,success
+2024-10-22 0:00,logistics_monitoring_n8n,data_volume,9865,9865,-23.41,TRUE,critical,Volume Drop Detection,success
+2024-10-23 0:00,logistics_monitoring_n8n,delivery_time_hours,11657,11657,-14.23,FALSE,none,none,success
+2024-10-24 0:00,marketing_monitoring_n8n,new_leads_b2b,10167,10167,26.72,TRUE,medium,Leads Drop Detection,success
+2024-10-25 0:00,marketing_monitoring_n8n,new_leads_b2b,9496,9496,19.69,FALSE,none,none,success
+2024-10-26 0:00,logistics_monitoring_n8n,data_volume,11306,11306,20.68,TRUE,critical,Volume Drop Detection,success
+2024-10-27 0:00,marketing_monitoring_n8n,data_volume,9513,9513,11.36,FALSE,none,none,success
+2024-10-28 0:00,sales_monitoring_n8n,total_revenue,10772,10772,-12.79,FALSE,none,none,success
+2024-10-29 0:00,logistics_monitoring_n8n,data_volume,8765,8765,26.55,TRUE,critical,Volume Drop Detection,success
+2024-10-30 0:00,marketing_monitoring_n8n,new_leads_b2b,11547,11547,14.74,FALSE,none,none,success
+2024-10-31 0:00,marketing_monitoring_n8n,new_leads_b2b,8940,8940,-25.92,TRUE,medium,Leads Drop Detection,success
+2024-11-01 0:00,sales_monitoring_n8n,orders_count,11718,11718,21.85,TRUE,medium,Order Volume Drop,success
+2024-11-02 0:00,marketing_monitoring_n8n,new_leads_b2b,8665,8665,-23.47,TRUE,medium,Leads Drop Detection,success
+2024-11-03 0:00,logistics_monitoring_n8n,delivery_time_hours,11679,11679,27.93,TRUE,high,Delivery Delay,success
+2024-11-04 0:00,sales_monitoring_n8n,total_revenue,8037,8037,-16.28,FALSE,none,none,success
+2024-11-05 0:00,sales_monitoring_n8n,total_revenue,8364,8364,-23.56,TRUE,high,Revenue Below Expected,success
+2024-11-06 0:00,logistics_monitoring_n8n,data_volume,8280,8280,-21.97,TRUE,critical,Volume Drop Detection,success
+2024-11-07 0:00,logistics_monitoring_n8n,delivery_time_hours,10074,10074,-12.56,FALSE,none,none,success
+2024-11-08 0:00,sales_monitoring_n8n,total_revenue,8760,8760,6.02,FALSE,none,none,success
+2024-11-09 0:00,marketing_monitoring_n8n,data_volume,11278,11278,7.83,FALSE,none,none,success
+2024-11-10 0:00,sales_monitoring_n8n,orders_count,11856,11856,15.7,FALSE,none,none,success
+2024-11-11 0:00,logistics_monitoring_n8n,data_volume,9104,9104,-9.59,FALSE,none,none,success
+2024-11-12 0:00,sales_monitoring_n8n,total_revenue,10078,10078,-22.17,TRUE,high,Revenue Below Expected,success
+2024-11-13 0:00,logistics_monitoring_n8n,delivery_time_hours,10406,10406,-19.36,FALSE,none,none,success
+2024-11-14 0:00,marketing_monitoring_n8n,new_leads_b2b,11304,11304,-19.55,FALSE,none,none,success
+2024-11-15 0:00,sales_monitoring_n8n,total_revenue,8481,8481,28.18,TRUE,high,Revenue Below Expected,failed
+2024-11-16 0:00,logistics_monitoring_n8n,data_volume,12162,12162,16.22,FALSE,none,none,success
+2024-11-17 0:00,marketing_monitoring_n8n,new_leads_b2b,11733,11733,-26.67,TRUE,medium,Leads Drop Detection,success
+2024-11-18 0:00,marketing_monitoring_n8n,data_volume,9295,9295,-0.45,FALSE,none,none,success
+2024-11-19 0:00,logistics_monitoring_n8n,data_volume,8651,8651,-24.87,TRUE,critical,Volume Drop Detection,success
+2024-11-20 0:00,sales_monitoring_n8n,total_revenue,11516,11516,-28.36,TRUE,high,Revenue Below Expected,failed
+2024-11-21 0:00,marketing_monitoring_n8n,data_volume,10958,10958,-24.11,TRUE,critical,Volume Drop Detection,success
+2024-11-22 0:00,logistics_monitoring_n8n,delivery_time_hours,9933,9933,23.37,TRUE,high,Delivery Delay,success
+2024-11-23 0:00,logistics_monitoring_n8n,delivery_time_hours,11028,11028,-7.16,FALSE,none,none,success
+2024-11-24 0:00,logistics_monitoring_n8n,delivery_time_hours,8421,8421,-17.8,FALSE,none,none,success
+2024-11-25 0:00,logistics_monitoring_n8n,delivery_time_hours,10612,10612,-8.71,FALSE,none,none,success
+2024-11-26 0:00,sales_monitoring_n8n,total_revenue,8888,8888,-1.17,FALSE,none,none,success
+2024-11-27 0:00,logistics_monitoring_n8n,data_volume,10847,10847,-25.27,TRUE,critical,Volume Drop Detection,success
+2024-11-28 0:00,marketing_monitoring_n8n,data_volume,8873,8873,27.35,TRUE,critical,Volume Drop Detection,failed
+2024-11-29 0:00,sales_monitoring_n8n,total_revenue,8226,8226,12.63,FALSE,none,none,success
+2024-11-30 0:00,sales_monitoring_n8n,total_revenue,8744,8744,4.42,FALSE,none,none,success
+2024-12-01 0:00,logistics_monitoring_n8n,data_volume,10445,10445,-15.4,FALSE,none,none,success
+2024-12-02 0:00,sales_monitoring_n8n,total_revenue,8014,8014,1.45,FALSE,none,none,success
+2024-12-03 0:00,marketing_monitoring_n8n,new_leads_b2b,10468,10468,-13.19,FALSE,none,none,success
+2024-12-04 0:00,marketing_monitoring_n8n,data_volume,9091,9091,29.13,TRUE,critical,Volume Drop Detection,success
+2024-12-05 0:00,logistics_monitoring_n8n,delivery_time_hours,10564,10564,-23.59,TRUE,high,Delivery Delay,success
+2024-12-06 0:00,logistics_monitoring_n8n,data_volume,10325,10325,2.54,FALSE,none,none,success
+2024-12-07 0:00,sales_monitoring_n8n,total_revenue,9481,9481,28.16,TRUE,high,Revenue Below Expected,success
+2024-12-08 0:00,logistics_monitoring_n8n,data_volume,8973,8973,-12.66,FALSE,none,none,success
+2024-12-09 0:00,logistics_monitoring_n8n,data_volume,11503,11503,10.37,FALSE,none,none,success
+2024-12-10 0:00,marketing_monitoring_n8n,new_leads_b2b,10390,10390,-20.91,TRUE,medium,Leads Drop Detection,failed
+2024-12-11 0:00,logistics_monitoring_n8n,data_volume,10037,10037,-26.23,TRUE,critical,Volume Drop Detection,success
+2024-12-12 0:00,marketing_monitoring_n8n,data_volume,10850,10850,15.07,FALSE,none,none,success
+2024-12-13 0:00,sales_monitoring_n8n,total_revenue,12224,12224,22.43,TRUE,high,Revenue Below Expected,failed
+2024-12-14 0:00,sales_monitoring_n8n,orders_count,12172,12172,17.2,FALSE,none,none,success
+2024-12-15 0:00,marketing_monitoring_n8n,data_volume,11935,11935,23.56,TRUE,critical,Volume Drop Detection,success
+2024-12-16 0:00,logistics_monitoring_n8n,delivery_time_hours,12024,12024,2.44,FALSE,none,none,success
+2024-12-17 0:00,logistics_monitoring_n8n,data_volume,11342,11342,14.22,FALSE,none,none,success
+2024-12-18 0:00,sales_monitoring_n8n,total_revenue,8722,8722,-7.77,FALSE,none,none,success
+2024-12-19 0:00,marketing_monitoring_n8n,data_volume,9801,9801,-9.84,FALSE,none,none,success
+2024-12-20 0:00,logistics_monitoring_n8n,delivery_time_hours,9703,9703,-29.66,TRUE,high,Delivery Delay,failed
+2024-12-21 0:00,sales_monitoring_n8n,orders_count,8833,8833,3.33,FALSE,none,none,success
+2024-12-22 0:00,logistics_monitoring_n8n,delivery_time_hours,10687,10687,-1.3,FALSE,none,none,success
+2024-12-23 0:00,marketing_monitoring_n8n,data_volume,8613,8613,21.31,TRUE,critical,Volume Drop Detection,success
+2024-12-24 0:00,logistics_monitoring_n8n,data_volume,10007,10007,-9.21,FALSE,none,none,success
+2024-12-25 0:00,marketing_monitoring_n8n,data_volume,11377,11377,-22.27,TRUE,critical,Volume Drop Detection,failed
+2024-12-26 0:00,marketing_monitoring_n8n,new_leads_b2b,9020,9020,12.04,FALSE,none,none,success
+2024-12-27 0:00,logistics_monitoring_n8n,delivery_time_hours,12269,12269,26.98,TRUE,high,Delivery Delay,success
+2024-12-28 0:00,sales_monitoring_n8n,orders_count,11110,11110,-8.95,FALSE,none,none,success
+2024-12-29 0:00,logistics_monitoring_n8n,data_volume,11067,11067,-23.28,TRUE,critical,Volume Drop Detection,failed
+2024-12-30 0:00,logistics_monitoring_n8n,delivery_time_hours,11663,11663,-13.66,FALSE,none,none,success
+2024-12-31 0:00,sales_monitoring_n8n,orders_count,8733,8733,-26.7,TRUE,medium,Order Volume Drop,failed
+2025-01-01 0:00,sales_monitoring_n8n,orders_count,11593,11593,19.37,FALSE,none,none,success
+2025-01-02 0:00,marketing_monitoring_n8n,new_leads_b2b,11255,11255,5.53,FALSE,none,none,success
+2025-01-03 0:00,marketing_monitoring_n8n,data_volume,8817,8817,1.77,FALSE,none,none,success
+2025-01-04 0:00,marketing_monitoring_n8n,new_leads_b2b,9316,9316,-8.33,FALSE,none,none,success
+2025-01-05 0:00,logistics_monitoring_n8n,delivery_time_hours,8966,8966,6.69,FALSE,none,none,success
+2025-01-06 0:00,marketing_monitoring_n8n,data_volume,11763,11763,26.39,TRUE,critical,Volume Drop Detection,failed
+2025-01-07 0:00,sales_monitoring_n8n,total_revenue,8442,8442,14.23,FALSE,none,none,success
+2025-01-08 0:00,logistics_monitoring_n8n,data_volume,10508,10508,0.82,FALSE,none,none,success
+2025-01-09 0:00,sales_monitoring_n8n,orders_count,9052,9052,5.24,FALSE,none,none,success
+2025-01-10 0:00,logistics_monitoring_n8n,data_volume,10696,10696,9.62,FALSE,none,none,success
+2025-01-11 0:00,marketing_monitoring_n8n,data_volume,10844,10844,-15.51,FALSE,none,none,success
+2025-01-12 0:00,logistics_monitoring_n8n,data_volume,11824,11824,-17.54,FALSE,none,none,success
+2025-01-13 0:00,sales_monitoring_n8n,total_revenue,8114,8114,-28.57,TRUE,high,Revenue Below Expected,failed
+2025-01-14 0:00,sales_monitoring_n8n,total_revenue,9857,9857,-14.28,FALSE,none,none,success
+2025-01-15 0:00,sales_monitoring_n8n,orders_count,8296,8296,-10.39,FALSE,none,none,success
+2025-01-16 0:00,sales_monitoring_n8n,total_revenue,8475,8475,-22.47,TRUE,high,Revenue Below Expected,failed
+2025-01-17 0:00,logistics_monitoring_n8n,data_volume,9909,9909,-9.01,FALSE,none,none,success
+2025-01-18 0:00,marketing_monitoring_n8n,data_volume,10163,10163,-13.61,FALSE,none,none,success
+2025-01-19 0:00,marketing_monitoring_n8n,new_leads_b2b,10013,10013,21.33,TRUE,medium,Leads Drop Detection,failed
+2025-01-20 0:00,marketing_monitoring_n8n,new_leads_b2b,11785,11785,28.58,TRUE,medium,Leads Drop Detection,success
+2025-01-21 0:00,sales_monitoring_n8n,total_revenue,8372,8372,-12.71,FALSE,none,none,success
+2025-01-22 0:00,sales_monitoring_n8n,total_revenue,8452,8452,15.26,FALSE,none,none,success
+2025-01-23 0:00,marketing_monitoring_n8n,new_leads_b2b,12232,12232,23.29,TRUE,medium,Leads Drop Detection,success
+2025-01-24 0:00,sales_monitoring_n8n,total_revenue,7976,7976,-22.34,TRUE,high,Revenue Below Expected,failed
+2025-01-25 0:00,sales_monitoring_n8n,orders_count,10464,10464,-3.51,FALSE,none,none,success
+2025-01-26 0:00,sales_monitoring_n8n,total_revenue,9321,9321,-17.81,FALSE,none,none,success
+2025-01-27 0:00,marketing_monitoring_n8n,data_volume,11554,11554,-24.52,TRUE,critical,Volume Drop Detection,success
+2025-01-28 0:00,sales_monitoring_n8n,orders_count,11620,11620,12.03,FALSE,none,none,success
+2025-01-29 0:00,sales_monitoring_n8n,orders_count,9357,9357,-14.23,FALSE,none,none,success
+2025-01-30 0:00,logistics_monitoring_n8n,data_volume,10011,10011,1.17,FALSE,none,none,success
+2025-01-31 0:00,logistics_monitoring_n8n,delivery_time_hours,10673,10673,17.31,FALSE,none,none,success
+2025-02-01 0:00,sales_monitoring_n8n,total_revenue,11366,11366,-23.35,TRUE,high,Revenue Below Expected,success
+2025-02-02 0:00,sales_monitoring_n8n,total_revenue,11414,11414,-8.55,FALSE,none,none,success
+2025-02-03 0:00,logistics_monitoring_n8n,delivery_time_hours,8006,8006,0.67,FALSE,none,none,success
+2025-02-04 0:00,sales_monitoring_n8n,orders_count,8441,8441,-15.81,FALSE,none,none,success
+2025-02-05 0:00,marketing_monitoring_n8n,new_leads_b2b,11860,11860,-13.93,FALSE,none,none,success
+2025-02-06 0:00,marketing_monitoring_n8n,data_volume,8173,8173,7.32,FALSE,none,none,success
+2025-02-07 0:00,marketing_monitoring_n8n,new_leads_b2b,9366,9366,-3.35,FALSE,none,none,success
+2025-02-08 0:00,marketing_monitoring_n8n,data_volume,8687,8687,8.75,FALSE,none,none,success
+2025-02-09 0:00,logistics_monitoring_n8n,data_volume,8183,8183,8.32,FALSE,none,none,success
+2025-02-10 0:00,sales_monitoring_n8n,orders_count,7990,7990,-20.96,TRUE,medium,Order Volume Drop,success
+2025-02-11 0:00,sales_monitoring_n8n,total_revenue,8340,8340,-25.98,TRUE,high,Revenue Below Expected,success
+2025-02-12 0:00,marketing_monitoring_n8n,new_leads_b2b,9820,9820,2.02,FALSE,none,none,success
+2025-02-13 0:00,sales_monitoring_n8n,total_revenue,9686,9686,8.62,FALSE,none,none,success
+2025-02-14 0:00,marketing_monitoring_n8n,data_volume,8203,8203,-19.67,FALSE,none,none,success
+2025-02-15 0:00,sales_monitoring_n8n,orders_count,10343,10343,14.37,FALSE,none,none,success
+2025-02-16 0:00,logistics_monitoring_n8n,data_volume,8827,8827,2.75,FALSE,none,none,success
+2025-02-17 0:00,sales_monitoring_n8n,total_revenue,8227,8227,-7.28,FALSE,none,none,success
+2025-02-18 0:00,marketing_monitoring_n8n,new_leads_b2b,10224,10224,12.49,FALSE,none,none,success
+2025-02-19 0:00,sales_monitoring_n8n,total_revenue,10141,10141,-5.87,FALSE,none,none,success
+2025-02-20 0:00,logistics_monitoring_n8n,delivery_time_hours,9827,9827,22.75,TRUE,high,Delivery Delay,success
+2025-02-21 0:00,logistics_monitoring_n8n,delivery_time_hours,11775,11775,-2.47,FALSE,none,none,success
+2025-02-22 0:00,logistics_monitoring_n8n,data_volume,11027,11027,22.78,TRUE,critical,Volume Drop Detection,success
+2025-02-23 0:00,logistics_monitoring_n8n,delivery_time_hours,11074,11074,-2.54,FALSE,none,none,success
+2025-02-24 0:00,logistics_monitoring_n8n,delivery_time_hours,8191,8191,19.11,FALSE,none,none,success
+2025-02-25 0:00,logistics_monitoring_n8n,data_volume,8053,8053,-24.68,TRUE,critical,Volume Drop Detection,success
+2025-02-26 0:00,marketing_monitoring_n8n,data_volume,10784,10784,-11.59,FALSE,none,none,success
+2025-02-27 0:00,sales_monitoring_n8n,orders_count,10843,10843,24.38,TRUE,medium,Order Volume Drop,success
+2025-02-28 0:00,logistics_monitoring_n8n,delivery_time_hours,8815,8815,11.51,FALSE,none,none,success
+2025-03-01 0:00,marketing_monitoring_n8n,data_volume,10686,10686,28.61,TRUE,critical,Volume Drop Detection,success
+2025-03-02 0:00,logistics_monitoring_n8n,delivery_time_hours,8845,8845,14.6,FALSE,none,none,success
+2025-03-03 0:00,logistics_monitoring_n8n,delivery_time_hours,11111,11111,-8.89,FALSE,none,none,success
+2025-03-04 0:00,marketing_monitoring_n8n,new_leads_b2b,8423,8423,-17.66,FALSE,none,none,success
+2025-03-05 0:00,marketing_monitoring_n8n,new_leads_b2b,9371,9371,-12.83,FALSE,none,none,success
+2025-03-06 0:00,logistics_monitoring_n8n,data_volume,11355,11355,5.57,FALSE,none,none,success
+2025-03-07 0:00,logistics_monitoring_n8n,data_volume,9455,9455,-14.42,FALSE,none,none,success
+2025-03-08 0:00,logistics_monitoring_n8n,delivery_time_hours,8225,8225,-7.49,FALSE,none,none,success
+2025-03-09 0:00,marketing_monitoring_n8n,data_volume,9718,9718,11.85,FALSE,none,none,success
+2025-03-10 0:00,sales_monitoring_n8n,total_revenue,11634,11634,-26.58,TRUE,high,Revenue Below Expected,failed
+2025-03-11 0:00,logistics_monitoring_n8n,delivery_time_hours,9512,9512,-18.77,FALSE,none,none,success
+2025-03-12 0:00,sales_monitoring_n8n,total_revenue,8690,8690,-10.94,FALSE,none,none,success
+2025-03-13 0:00,sales_monitoring_n8n,total_revenue,9708,9708,0.82,FALSE,none,none,success
+2025-03-14 0:00,logistics_monitoring_n8n,delivery_time_hours,9667,9667,16.7,FALSE,none,none,success
+2025-03-15 0:00,sales_monitoring_n8n,orders_count,11091,11091,-20.82,TRUE,medium,Order Volume Drop,success
+2025-03-16 0:00,logistics_monitoring_n8n,delivery_time_hours,10554,10554,-14.54,FALSE,none,none,success
+2025-03-17 0:00,marketing_monitoring_n8n,new_leads_b2b,9147,9147,4.71,FALSE,none,none,success
+2025-03-18 0:00,marketing_monitoring_n8n,new_leads_b2b,8179,8179,-2.02,FALSE,none,none,success
+2025-03-19 0:00,marketing_monitoring_n8n,data_volume,8433,8433,-6.61,FALSE,none,none,success
+2025-03-20 0:00,sales_monitoring_n8n,orders_count,10004,10004,0.48,FALSE,none,none,success
+2025-03-21 0:00,logistics_monitoring_n8n,delivery_time_hours,8428,8428,22.85,TRUE,high,Delivery Delay,success
+2025-03-22 0:00,marketing_monitoring_n8n,new_leads_b2b,10831,10831,3.17,FALSE,none,none,success
+2025-03-23 0:00,marketing_monitoring_n8n,data_volume,11918,11918,-8.19,FALSE,none,none,success
+2025-03-24 0:00,sales_monitoring_n8n,total_revenue,9083,9083,8.36,FALSE,none,none,success
+2025-03-25 0:00,marketing_monitoring_n8n,data_volume,11755,11755,-4.44,FALSE,none,none,success
+2025-03-26 0:00,logistics_monitoring_n8n,delivery_time_hours,11002,11002,-9.78,FALSE,none,none,success
+2025-03-27 0:00,logistics_monitoring_n8n,delivery_time_hours,9039,9039,-26.07,TRUE,high,Delivery Delay,success
+2025-03-28 0:00,logistics_monitoring_n8n,data_volume,11992,11992,19.29,FALSE,none,none,success
+2025-03-29 0:00,sales_monitoring_n8n,orders_count,9965,9965,16.59,FALSE,none,none,success
+2025-03-30 0:00,logistics_monitoring_n8n,data_volume,11554,11554,5.43,FALSE,none,none,success
+2025-03-31 0:00,sales_monitoring_n8n,total_revenue,10838,10838,-26.15,TRUE,high,Revenue Below Expected,success
+2025-04-01 0:00,logistics_monitoring_n8n,delivery_time_hours,8338,8338,-6.12,FALSE,none,none,success
+2025-04-02 0:00,marketing_monitoring_n8n,data_volume,9106,9106,-19.32,FALSE,none,none,success
+2025-04-03 0:00,sales_monitoring_n8n,orders_count,9445,9445,-15.43,FALSE,none,none,success
+2025-04-04 0:00,logistics_monitoring_n8n,delivery_time_hours,10831,10831,-6.85,FALSE,none,none,success
+2025-04-05 0:00,logistics_monitoring_n8n,delivery_time_hours,8975,8975,27.56,TRUE,high,Delivery Delay,success
+2025-04-06 0:00,sales_monitoring_n8n,total_revenue,10696,10696,29.61,TRUE,high,Revenue Below Expected,success
+2025-04-07 0:00,marketing_monitoring_n8n,new_leads_b2b,9424,9424,-17.5,FALSE,none,none,success
+2025-04-08 0:00,sales_monitoring_n8n,total_revenue,11411,11411,11.13,FALSE,none,none,success
+2025-04-09 0:00,marketing_monitoring_n8n,data_volume,12215,12215,21.57,TRUE,critical,Volume Drop Detection,success
+2025-04-10 0:00,logistics_monitoring_n8n,delivery_time_hours,9413,9413,-8.69,FALSE,none,none,success
+2025-04-11 0:00,logistics_monitoring_n8n,data_volume,11770,11770,-2.92,FALSE,none,none,success
+2025-04-12 0:00,sales_monitoring_n8n,total_revenue,10945,10945,24.53,TRUE,high,Revenue Below Expected,success
+2025-04-13 0:00,sales_monitoring_n8n,total_revenue,9742,9742,24.24,TRUE,high,Revenue Below Expected,failed
+2025-04-14 0:00,sales_monitoring_n8n,orders_count,8989,8989,8.98,FALSE,none,none,success
+2025-04-15 0:00,logistics_monitoring_n8n,delivery_time_hours,10816,10816,-8.38,FALSE,none,none,success
+2025-04-16 0:00,logistics_monitoring_n8n,data_volume,8656,8656,-14.31,FALSE,none,none,success
+2025-04-17 0:00,sales_monitoring_n8n,total_revenue,10169,10169,16.95,FALSE,none,none,success
+2025-04-18 0:00,sales_monitoring_n8n,total_revenue,9763,9763,-23.64,TRUE,high,Revenue Below Expected,success
+2025-04-19 0:00,logistics_monitoring_n8n,data_volume,9497,9497,-10.28,FALSE,none,none,success
+2025-04-20 0:00,sales_monitoring_n8n,total_revenue,9317,9317,-28.3,TRUE,high,Revenue Below Expected,success
+2025-04-21 0:00,marketing_monitoring_n8n,new_leads_b2b,11611,11611,21.18,TRUE,medium,Leads Drop Detection,success
+2025-04-22 0:00,logistics_monitoring_n8n,data_volume,11445,11445,-5.41,FALSE,none,none,success
+2025-04-23 0:00,sales_monitoring_n8n,orders_count,8934,8934,-16.6,FALSE,none,none,success
+2025-04-24 0:00,sales_monitoring_n8n,orders_count,9205,9205,-29.49,TRUE,medium,Order Volume Drop,success
+2025-04-25 0:00,sales_monitoring_n8n,total_revenue,8662,8662,-23.73,TRUE,high,Revenue Below Expected,failed
+2025-04-26 0:00,marketing_monitoring_n8n,new_leads_b2b,12177,12177,27.76,TRUE,medium,Leads Drop Detection,failed
+2025-04-27 0:00,marketing_monitoring_n8n,data_volume,8819,8819,-8.02,FALSE,none,none,success
+2025-04-28 0:00,marketing_monitoring_n8n,data_volume,9556,9556,15.68,FALSE,none,none,success
+2025-04-29 0:00,logistics_monitoring_n8n,data_volume,11624,11624,-17.6,FALSE,none,none,success
+2025-04-30 0:00,sales_monitoring_n8n,orders_count,8957,8957,-4.27,FALSE,none,none,success
+2025-05-01 0:00,logistics_monitoring_n8n,delivery_time_hours,9461,9461,6.15,FALSE,none,none,success
+2025-05-02 0:00,marketing_monitoring_n8n,data_volume,8028,8028,-17.11,FALSE,none,none,success
+2025-05-03 0:00,sales_monitoring_n8n,orders_count,8353,8353,25.31,TRUE,medium,Order Volume Drop,failed
+2025-05-04 0:00,marketing_monitoring_n8n,data_volume,9881,9881,8.1,FALSE,none,none,success
+2025-05-05 0:00,marketing_monitoring_n8n,new_leads_b2b,9323,9323,22.38,TRUE,medium,Leads Drop Detection,success
+2025-05-06 0:00,logistics_monitoring_n8n,data_volume,9829,9829,2.95,FALSE,none,none,success
+2025-05-07 0:00,sales_monitoring_n8n,orders_count,9418,9418,1.82,FALSE,none,none,success
+2025-05-08 0:00,sales_monitoring_n8n,total_revenue,8343,8343,-15.61,FALSE,none,none,success
+2025-05-09 0:00,marketing_monitoring_n8n,new_leads_b2b,9698,9698,-0.15,FALSE,none,none,success
+2025-05-10 0:00,marketing_monitoring_n8n,data_volume,8235,8235,3.53,FALSE,none,none,success
+2025-05-11 0:00,marketing_monitoring_n8n,new_leads_b2b,8658,8658,5.81,FALSE,none,none,success
+2025-05-12 0:00,logistics_monitoring_n8n,delivery_time_hours,11095,11095,-10.44,FALSE,none,none,success
+2025-05-13 0:00,sales_monitoring_n8n,total_revenue,11588,11588,18.84,FALSE,none,none,success
+2025-05-14 0:00,logistics_monitoring_n8n,delivery_time_hours,11792,11792,-0.73,FALSE,none,none,success
+2025-05-15 0:00,sales_monitoring_n8n,total_revenue,11067,11067,-3.21,FALSE,none,none,success
+2025-05-16 0:00,logistics_monitoring_n8n,delivery_time_hours,9254,9254,25.49,TRUE,high,Delivery Delay,success
+2025-05-17 0:00,logistics_monitoring_n8n,data_volume,10963,10963,-13.68,FALSE,none,none,success
+2025-05-18 0:00,sales_monitoring_n8n,orders_count,8613,8613,-8.62,FALSE,none,none,success
+2025-05-19 0:00,logistics_monitoring_n8n,data_volume,9781,9781,-21.88,TRUE,critical,Volume Drop Detection,failed
+2025-05-20 0:00,marketing_monitoring_n8n,data_volume,10548,10548,-25.18,TRUE,critical,Volume Drop Detection,failed
+2025-05-21 0:00,marketing_monitoring_n8n,new_leads_b2b,7933,7933,-6.61,FALSE,none,none,success
+2025-05-22 0:00,marketing_monitoring_n8n,data_volume,8768,8768,16.81,FALSE,none,none,success
+2025-05-23 0:00,marketing_monitoring_n8n,data_volume,8000,8000,-29.99,TRUE,critical,Volume Drop Detection,failed
+2025-05-24 0:00,sales_monitoring_n8n,orders_count,8287,8287,-11.23,FALSE,none,none,success
+2025-05-25 0:00,marketing_monitoring_n8n,new_leads_b2b,10065,10065,-23.47,TRUE,medium,Leads Drop Detection,failed
+2025-05-26 0:00,sales_monitoring_n8n,total_revenue,11525,11525,-7.46,FALSE,none,none,success
+2025-05-27 0:00,sales_monitoring_n8n,orders_count,10016,10016,-18.37,FALSE,none,none,success
+2025-05-28 0:00,marketing_monitoring_n8n,new_leads_b2b,9619,9619,1.95,FALSE,none,none,success
+2025-05-29 0:00,sales_monitoring_n8n,total_revenue,9353,9353,-4.6,FALSE,none,none,success
+2025-05-30 0:00,logistics_monitoring_n8n,data_volume,10324,10324,2.48,FALSE,none,none,success
+2025-05-31 0:00,sales_monitoring_n8n,total_revenue,9652,9652,-14.73,FALSE,none,none,success
+2025-06-01 0:00,marketing_monitoring_n8n,data_volume,10181,10181,-11.82,FALSE,none,none,success
+2025-06-02 0:00,logistics_monitoring_n8n,data_volume,9411,9411,11.11,FALSE,none,none,success
+2025-06-03 0:00,logistics_monitoring_n8n,data_volume,10593,10593,-0.63,FALSE,none,none,success
+2025-06-04 0:00,marketing_monitoring_n8n,new_leads_b2b,11376,11376,27.69,TRUE,medium,Leads Drop Detection,failed
+2025-06-05 0:00,sales_monitoring_n8n,orders_count,10549,10549,14.94,FALSE,none,none,success
+2025-06-06 0:00,sales_monitoring_n8n,total_revenue,10914,10914,-28.52,TRUE,high,Revenue Below Expected,success
+2025-06-07 0:00,sales_monitoring_n8n,orders_count,9148,9148,-5.17,FALSE,none,none,success
+2025-06-08 0:00,logistics_monitoring_n8n,data_volume,10745,10745,-15.5,FALSE,none,none,success
+2025-06-09 0:00,marketing_monitoring_n8n,data_volume,11066,11066,-23.3,TRUE,critical,Volume Drop Detection,failed
+2025-06-10 0:00,logistics_monitoring_n8n,data_volume,11501,11501,0.18,FALSE,none,none,success
+2025-06-11 0:00,logistics_monitoring_n8n,delivery_time_hours,12052,12052,25.21,TRUE,high,Delivery Delay,failed
+2025-06-12 0:00,sales_monitoring_n8n,orders_count,9900,9900,10.03,FALSE,none,none,success
+2025-06-13 0:00,logistics_monitoring_n8n,delivery_time_hours,11276,11276,17.62,FALSE,none,none,success
+2025-06-14 0:00,logistics_monitoring_n8n,data_volume,8576,8576,-22.35,TRUE,critical,Volume Drop Detection,failed
+2025-06-15 0:00,logistics_monitoring_n8n,data_volume,10028,10028,-17.14,FALSE,none,none,success
+2025-06-16 0:00,logistics_monitoring_n8n,delivery_time_hours,8694,8694,-0.55,FALSE,none,none,success
+2025-06-17 0:00,marketing_monitoring_n8n,new_leads_b2b,10982,10982,-11.76,FALSE,none,none,success
+2025-06-18 0:00,marketing_monitoring_n8n,data_volume,8956,8956,-4.31,FALSE,none,none,success
+2025-06-19 0:00,logistics_monitoring_n8n,data_volume,8570,8570,27.03,TRUE,critical,Volume Drop Detection,failed
+2025-06-20 0:00,logistics_monitoring_n8n,delivery_time_hours,9603,9603,-19.63,FALSE,none,none,success
+2025-06-21 0:00,marketing_monitoring_n8n,data_volume,12102,12102,10.3,FALSE,none,none,success
+2025-06-22 0:00,logistics_monitoring_n8n,data_volume,10688,10688,-1.16,FALSE,none,none,success
+2025-06-23 0:00,marketing_monitoring_n8n,new_leads_b2b,8129,8129,2.97,FALSE,none,none,success
