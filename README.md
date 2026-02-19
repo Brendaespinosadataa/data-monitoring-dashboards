@@ -5,13 +5,23 @@ This repository features a **Strategic Operations Dashboard** focused on Data Ob
 
 The goal is to identify failures, monitor data volume anomalies, and assess the business impact of technical issues.
 
+## 📊 Dashboard Previews
+
+### Strategic Operations View
+This view provides deep insights into data throughput trends and anomaly detection.
+![Strategic View](./images/dashboard1.0.jpg)
+
+### Operational Detail View
+A focused view on workflow reliability and real-time alert severity distribution.
+![Operational View](./images/dashboard2.0.jpg)
+
 ## 📁 Repository Structure
 * `data/`: Raw dataset (CSV format).
 * `images/`: Dashboard screenshots and previews.
 * `scripts/`: DAX measures and transformation logic.
 * `docs/`: Additional documentation.
 
-## 📋 Key Metrics & KPIs (In English)
+## 📋 Key Metrics & KPIs
 * **Availability Rate:** % of successful workflow executions.
 * **Incident Heatmap:** Failure frequency by workflow and department.
 * **Data Integrity:** Monitoring `percentage_change` to find sudden data drops.
