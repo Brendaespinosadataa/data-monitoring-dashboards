@@ -9,11 +9,11 @@ The goal is to identify failures, monitor data volume anomalies, and assess the 
 
 ### Strategic Operations View
 This view provides deep insights into data throughput trends and anomaly detection.
-![Strategic View](./images/dashboard1.0.jpg)
+![Strategic View](./images/dashboard1.0.png)
 
 ### Operational Detail View
 A focused view on workflow reliability and real-time alert severity distribution.
-![Operational View](./images/dashboard2.0.jpg)
+![Operational View](./images/dashboard2.0.png)
 
 ## 📁 Repository Structure
 * `data/`: Raw dataset (CSV format).
