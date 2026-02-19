@@ -9,7 +9,7 @@ This document outlines the core business logic and DAX (Data Analysis Expression
 ### 1. Overall Success Rate
 This is the primary health indicator. It calculates the percentage of successful executions against the total number of attempts across all workflows.
 
-```dax
+``dax
 Overall Success Rate = 
 DIVIDE(
     CALCULATE(
@@ -18,7 +18,7 @@ DIVIDE(
     ),
     COUNTROWS('data_monitoring'),
     0
-)
+) 
 
 ---
 
