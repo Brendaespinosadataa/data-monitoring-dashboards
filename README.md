@@ -1,5 +1,14 @@
 # 📊 Data Monitoring & Operations Dashboard
 
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-FFB000?style=for-the-badge&logo=microsoft&logoColor=white)
+![Data Analytics](https://img.shields.io/badge/Data_Analytics-0A66C2?style=for-the-badge&logo=databricks&logoColor=white)
+![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-1F4E79?style=for-the-badge)
+![Data Observability](https://img.shields.io/badge/Data_Observability-6C63FF?style=for-the-badge)
+
 ## 📖 Project Description
 This repository features a **Strategic Operations Dashboard** focused on Data Observability. It monitors automated workflows (n8n), tracking the health of data pipelines across Sales, Marketing, and Logistics. 
 
